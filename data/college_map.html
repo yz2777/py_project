@@ -110,7 +110,7 @@
             
         
             
-            <style> #map_f616bf411d1a4727a1a67359397b90a8 {
+            <style> #map_48caffb8281b4d3392ce762ac2b02d28 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -132,7 +132,7 @@
             
         
             
-            <div class="folium-map" id="map_f616bf411d1a4727a1a67359397b90a8" ></div>
+            <div class="folium-map" id="map_48caffb8281b4d3392ce762ac2b02d28" ></div>
         
         
         
@@ -146,8 +146,8 @@
             var northEast = L.latLng(90, 180);
             var bounds = L.latLngBounds(southWest, northEast);
 
-            var map_f616bf411d1a4727a1a67359397b90a8 = L.map('map_f616bf411d1a4727a1a67359397b90a8', {
-                                           center:[47.656213,-122.313115],
+            var map_48caffb8281b4d3392ce762ac2b02d28 = L.map('map_48caffb8281b4d3392ce762ac2b02d28', {
+                                           center:[40.108864,-88.230309],
                                            zoom: 4,
                                            maxBounds: bounds,
                                            layers: [],
@@ -157,7 +157,7 @@
         
         
             
-            var tile_layer_7c790d0622db469e8aaf93713077362f = L.tileLayer(
+            var tile_layer_fd708db3eba843a0886f81c5b6184fbb = L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
@@ -165,13 +165,13 @@
                     attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
                     detectRetina: false
                     }
-                ).addTo(map_f616bf411d1a4727a1a67359397b90a8);
+                ).addTo(map_48caffb8281b4d3392ce762ac2b02d28);
 
         
         
             
-            var regular_polygon_marker_e030e4d99b0947e781284801fd002a62 = new L.RegularPolygonMarker(
-                new L.LatLng(47.656213,-122.313115),
+            var regular_polygon_marker_b0c0c83567c34fe29268ba5ac13fdcc7 = new L.RegularPolygonMarker(
+                new L.LatLng(40.108864,-88.230309),
                 {
                     icon : new L.Icon.Default(),
                     color: 'black',
@@ -184,18 +184,18 @@
                     radius: 9
                     }
                 )
-                .addTo(map_f616bf411d1a4727a1a67359397b90a8);
+                .addTo(map_48caffb8281b4d3392ce762ac2b02d28);
             
         
             
-            var popup_38b8c135d99147ecaabf3941739f54a3 = L.popup({maxWidth: '300'});
+            var popup_777e8155e4f847748eba209df44857e0 = L.popup({maxWidth: '300'});
 
             
-                var html_1b08d6bb2534465a84af7cc6ea16654c = $('         <div id="html_1b08d6bb2534465a84af7cc6ea16654c"                 style="width: 100.0%; height: 100.0%;">                 University of Washington-Seattle Campus</div>                 ')[0];
-                popup_38b8c135d99147ecaabf3941739f54a3.setContent(html_1b08d6bb2534465a84af7cc6ea16654c);
+                var html_32052a1ce9634139bfda5bd899574722 = $('         <div id="html_32052a1ce9634139bfda5bd899574722"                 style="width: 100.0%; height: 100.0%;">                 University of Illinois at Urbana-Champaign</div>                 ')[0];
+                popup_777e8155e4f847748eba209df44857e0.setContent(html_32052a1ce9634139bfda5bd899574722);
             
 
-            regular_polygon_marker_e030e4d99b0947e781284801fd002a62.bindPopup(popup_38b8c135d99147ecaabf3941739f54a3);
+            regular_polygon_marker_b0c0c83567c34fe29268ba5ac13fdcc7.bindPopup(popup_777e8155e4f847748eba209df44857e0);
 
             
         
