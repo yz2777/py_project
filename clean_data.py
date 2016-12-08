@@ -10,7 +10,7 @@ import os
 # Data will be stored in or loaded from '.../py_project/data'
 path = os.getcwd()
 data_path = path + '\\data\\'
-rank_path = data_path + 'crwudata.xlsx'
+rank_path = data_path + 'cwurdata.xlsx'
 score_path = data_path + 'Most-Recent-Cohorts-All-Data-Elements.xlsx'
 complete_path = data_path + 'complete_data.xlsx'
 
