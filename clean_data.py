@@ -5,14 +5,15 @@ import os
 ##Read the data##
 #################
 
-# Import os to get the working directory
-# The working path is usually '.../py_project'
+# Import os to get or change the working directory
+# The working path is usually like '.../py_project'
 # Data will be stored in or loaded from '.../py_project/data'
-path = os.getcwd()
-data_path = path + '\\data\\'
-rank_path = data_path + 'cwurdata.xlsx'
-score_path = data_path + 'Most-Recent-Cohorts-All-Data-Elements.xlsx'
-complete_path = data_path + 'complete_data.xlsx'
+# Use os.chdir() to change directory to data folder
+os.chdir("data")
+data_path = os.getcwd()
+rank_path = data_path + '/cwurdata.xlsx'
+score_path = data_path + '/Most-Recent-Cohorts-All-Data-Elements.xlsx'
+complete_path = data_path + '/complete_data.xlsx'
 
 data_rank = pd.read_excel(rank_path,"Sheet1")
 data_score = pd.read_excel(score_path,"Sheet1")

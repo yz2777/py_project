@@ -110,7 +110,7 @@
             
         
             
-            <style> #map_6039cc5df2394e189ab710aacd4f79d2 {
+            <style> #map_ec030b1123284b0698630d995aa61614 {
                 position : relative;
                 width : 100.0%;
                 height: 100.0%;
@@ -132,7 +132,7 @@
             
         
             
-            <div class="folium-map" id="map_6039cc5df2394e189ab710aacd4f79d2" ></div>
+            <div class="folium-map" id="map_ec030b1123284b0698630d995aa61614" ></div>
         
         
         
@@ -146,8 +146,8 @@
             var northEast = L.latLng(90, 180);
             var bounds = L.latLngBounds(southWest, northEast);
 
-            var map_6039cc5df2394e189ab710aacd4f79d2 = L.map('map_6039cc5df2394e189ab710aacd4f79d2', {
-                                           center:[42.374429,-71.118177],
+            var map_ec030b1123284b0698630d995aa61614 = L.map('map_ec030b1123284b0698630d995aa61614', {
+                                           center:[37.426967,-122.168826],
                                            zoom: 4,
                                            maxBounds: bounds,
                                            layers: [],
@@ -157,7 +157,7 @@
         
         
             
-            var tile_layer_59028d618e5647c2b4fff796066c744f = L.tileLayer(
+            var tile_layer_b67c1cf6d120498bbc25875533bd4efe = L.tileLayer(
                 'https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png',
                 {
                     maxZoom: 18,
@@ -165,13 +165,13 @@
                     attribution: 'Data by <a href="http://openstreetmap.org">OpenStreetMap</a>, under <a href="http://www.openstreetmap.org/copyright">ODbL</a>.',
                     detectRetina: false
                     }
-                ).addTo(map_6039cc5df2394e189ab710aacd4f79d2);
+                ).addTo(map_ec030b1123284b0698630d995aa61614);
 
         
         
             
-            var regular_polygon_marker_0d2e860f3fba4a87b5f903f8803af75d = new L.RegularPolygonMarker(
-                new L.LatLng(42.374429,-71.118177),
+            var regular_polygon_marker_2e19b4d7f8a54d2ca502d21dee8cadcc = new L.RegularPolygonMarker(
+                new L.LatLng(37.426967,-122.168826),
                 {
                     icon : new L.Icon.Default(),
                     color: 'black',
@@ -184,18 +184,18 @@
                     radius: 9
                     }
                 )
-                .addTo(map_6039cc5df2394e189ab710aacd4f79d2);
+                .addTo(map_ec030b1123284b0698630d995aa61614);
             
         
             
-            var popup_29f19ecb6f79461084bd51274cca243a = L.popup({maxWidth: '300'});
+            var popup_d010ab8f0ea24b0dba2c7803477971fb = L.popup({maxWidth: '300'});
 
             
-                var html_a8b6528a6fef4988b7cb82f24f565439 = $('         <div id="html_a8b6528a6fef4988b7cb82f24f565439"                 style="width: 100.0%; height: 100.0%;">                 Harvard University</div>                 ')[0];
-                popup_29f19ecb6f79461084bd51274cca243a.setContent(html_a8b6528a6fef4988b7cb82f24f565439);
+                var html_03494eb16e60430abfb5cf89c5cb310a = $('         <div id="html_03494eb16e60430abfb5cf89c5cb310a"                 style="width: 100.0%; height: 100.0%;">                 Stanford University</div>                 ')[0];
+                popup_d010ab8f0ea24b0dba2c7803477971fb.setContent(html_03494eb16e60430abfb5cf89c5cb310a);
             
 
-            regular_polygon_marker_0d2e860f3fba4a87b5f903f8803af75d.bindPopup(popup_29f19ecb6f79461084bd51274cca243a);
+            regular_polygon_marker_2e19b4d7f8a54d2ca502d21dee8cadcc.bindPopup(popup_d010ab8f0ea24b0dba2c7803477971fb);
 
             
         

@@ -46,7 +46,7 @@ def main():
                 #If the input is valid, a brief introduction and some figures will appear.
                 inroduction_figure=plot_infor(data_top_10,int(user_order))
                 inroduction_figure.Map_plot()
-                webbrowser.open(data_path+'college_map.html')
+                webbrowser.open("file://"+data_path+'/college_map.html')
                 inroduction_figure.Age_plot()
                 plt.show()
                 inroduction_figure.WR_NR_plot()

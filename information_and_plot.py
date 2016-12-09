@@ -170,7 +170,7 @@ class plot_infor():
             #Generate location in map, start from zoom 4 which is the whole US map
             map_user_college=folium.Map(location=[la_user_college, lo_user_college],zoom_start=4)
             folium.RegularPolygonMarker(location=[la_user_college, lo_user_college], popup=str(name_user_college), fill_color='#FCE112', number_of_sides=3, radius=9).add_to(map_user_college)
-            map_user_college.save(data_path+'college_map.html')
+            map_user_college.save(data_path+'/college_map.html')
 
 
 
